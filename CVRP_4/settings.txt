@@ -1,0 +1,35 @@
+//---------------------Original settings---------------//
+//max runs, defualt : 1 run
+MaxRuns
+3
+//---------------------GA parameters---------------//
+GA_FirstPopulationSize
+100
+//probability of operations
+GA_NumberOf_CrossOvers
+10
+GA_OffSprings
+10
+GA_NumberOf_Mutations
+10
+//----------------------AntColony parametters---------------//
+AC_NumberOfAnts
+50
+AC_tau0
+1
+AC_rho
+0.01
+AC_alpha
+1
+AC_beta
+2
+//-------------------------termination condition--------------//
+//evals, time, iteration
+TerminationCondition
+iteration
+Time_Secconds_Constraint
+-1
+MaxEvals_Constraint
+-1
+MAXIteration_Constraint
+200
